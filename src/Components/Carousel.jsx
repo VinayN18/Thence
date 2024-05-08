@@ -10,7 +10,7 @@ export default function Carousel() {
     },
     {
       id: 2,
-      text: "Drive innovation through data-driven decision-making",
+      text: "Drive innovation through data-driven decision-making strategies",
     },
     {
       id: 3,
@@ -47,7 +47,9 @@ export default function Carousel() {
           <div
             key={slide.id}
             className={`w-2 h-2 mx-1 rounded-full cursor-pointer ${
-              index === currentSlide ? "bg-[#2DA950]" : "bg-[#E4E3E3] hover:bg-[#CAD0CB]"
+              index === currentSlide
+                ? "bg-[#2DA950]"
+                : "bg-[#E4E3E3] hover:bg-[#CAD0CB]"
             }`}
             onClick={() => handleDotClick(index)}
           />
