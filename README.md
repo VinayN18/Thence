@@ -1,6 +1,6 @@
 # Thence
 
-Deployed Link: [Thence](https://fabulous-mermaid-0cd9bd.netlify.app/)
+Deployed Link: https://fabulous-mermaid-0cd9bd.netlify.app/
 
 ## React + Vite
 
